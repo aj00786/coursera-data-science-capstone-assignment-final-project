@@ -19,6 +19,6 @@ This function uncompresses a data file for use in the package
 "wordprediction".
 }
 \author{
-Michael David Gill
+Ajmal
 }
 
