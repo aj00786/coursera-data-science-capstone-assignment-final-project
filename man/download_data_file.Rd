@@ -19,6 +19,6 @@ This function downloads a data file from a specified location URL for use in
 the package "wordprediction".
 }
 \author{
-Michael David Gill
+Ajmal
 }
 
