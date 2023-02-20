@@ -2,10 +2,10 @@
 # Package: wordprediction                                                      #
 # Type: Package                                                                #
 # Title: Word Prediction                                                       #
-# Author: Michael David Gill                                                   #
-# Maintainer: Michael David Gill <michaelgill1969@gmail.com>                   #
-# URL: https://github.com/michaelgill1969/coursera-data-science-capstone-      #
-# assignment-final-project-submission                                          #
+# Author: Ajmal                                                                #
+# Maintainer: Ajmal <consultantajmal@gmail.com>                                #
+# URL: https://github.com/aj00786/coursera-data-science-capstone-              #
+# assignment-final-project                                                     #
 # Description: This package, submitted in partial fulfillment of the           #
 # requirements of the Coursera course, "Data Science Capstone", contains       #
 # functions for an auto-completion model that predicts the next word to be     #
