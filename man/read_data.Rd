@@ -22,6 +22,6 @@ This function reads from a data file as an object of type "corpus" from the
 by the language parameter.
 }
 \author{
-Michael David Gill
+Ajmal
 }
 
