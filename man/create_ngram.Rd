@@ -21,6 +21,6 @@ Creates a n-gram-tokenized term-document matrix (TDM).
 This function creates a n-gram-tokenized term-document matrix.
 }
 \author{
-Michael David Gill
+Ajmal
 }
 
