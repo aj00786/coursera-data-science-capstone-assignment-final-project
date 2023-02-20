@@ -13,6 +13,6 @@ Samples a data file.
 This function samples 1000 lines each from the data files via Mac OS X shell.
 }
 \author{
-Michael David Gill
+Ajmal
 }
 
