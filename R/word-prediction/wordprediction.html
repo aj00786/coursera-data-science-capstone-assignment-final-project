@@ -111,14 +111,15 @@ $(document).ready(function () {
 </div>
 
 
-<pre class="r"><code>################################################################################
+<pre class="r"><code>
+################################################################################
 # Package: wordprediction                                                      #
 # Type: Package                                                                #
 # Title: Word Prediction                                                       #
-# Author: Jonathan Tieh                                                        #
-# Maintainer: Jonathan Tieh &lt;jontieh@gmail.com&gt;                          #
-# URL: https://github.com/jontieh/coursera-data-science-capstone-              #
-# assignment-final-project-submission                                          #
+# Author: Ajmal                                                                #
+# Maintainer: Ajmal <consultantajmal@gmail.com>                                #
+# URL: https://github.com/aj007786/coursera-data-science-capstone-             #
+# assignment-final-project                                                     #
 # Description: This package, submitted in partial fulfillment of the           #
 # requirements of the Coursera course, &quot;Data Science Capstone&quot;, contains       #
 # functions for an auto-completion model that predicts the next word to be     #
@@ -133,7 +134,7 @@ $(document).ready(function () {
 #'
 #' @param location URL of the data file to be used formatted as a character.
 #' @param data_file name of the data file to be used formatted as a character.
-#' @author Jonathan Tieh
+#' @author Ajmal
 #' @details
 #' This function downloads a data file from a specified location URL for use in
 #' the package &quot;wordprediction&quot;.
@@ -183,7 +184,7 @@ uncompress_data_file &lt;- function(location, data_file) {
 #'
 #' Samples a data file.
 #'
-#' @author Jonathan Tieh
+#' @author Ajmal
 #' @details
 #' This function samples 1000 lines each from the data files via Mac OS X shell.
 #' @export
@@ -357,7 +358,7 @@ preprocess_corpus &lt;- function(corpus) {
 #' @param corpus corpus to be tokenized
 #' @param n size of n-gram
 #' @return a n-gram-tokenized term-document matrix
-#' @author Jonathan Tieh
+#' @author Ajmal
 #' @details
 #' This function creates a n-gram-tokenized term-document matrix.
 #' @export
@@ -385,7 +386,7 @@ create_ngram &lt;- function(corpus, n) {
 #'
 #' @param phrase a character-type input to the model
 #' @return a character-type word predicted by the model
-#' @author Jonathan Tieh
+#' @author Ajmal
 #' @details
 #' This function creates a simplified Katz's back-off model that backs off to
 #' smaller n-grams when the key is not found in the larger n-gram.  The maximum
