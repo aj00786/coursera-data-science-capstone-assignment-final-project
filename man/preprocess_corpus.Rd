@@ -20,6 +20,6 @@ This function preprocesses a corpus by removing punctuation, numbers, and
 English stopwords, and stripping whitespace.
 }
 \author{
-Michael David Gill
+Ajmal
 }
 
