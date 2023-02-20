@@ -20,7 +20,7 @@
 #'
 #' @param location URL of the data file to be used formatted as a character.
 #' @param data_file name of the data file to be used formatted as a character.
-#' @author Michael David Gill
+#' @author Ajmal
 #' @details
 #' This function downloads a data file from a specified location URL for use in
 #' the package "wordprediction".
@@ -48,7 +48,7 @@ download_data_file <- function(location, data_file) {
 #'
 #' @param location local directory created by unpacking the data file.
 #' @param data_file name of the data file to be used formatted as a character.
-#' @author Michael David Gill
+#' @author Ajmal
 #' @details
 #' This function uncompresses a data file for use in the package
 #' "wordprediction".
@@ -70,7 +70,7 @@ uncompress_data_file <- function(location, data_file) {
 #'
 #' Samples a data file.
 #'
-#' @author Michael David Gill
+#' @author Ajmal
 #' @details
 #' This function samples 1000 lines each from the data files via Mac OS X shell.
 #' @export
@@ -129,7 +129,7 @@ sample_data_file <- function() {
 #' a character giving the language as IETF language tags "de" for German, "en"
 #' for English, "fi" for Finnish, or "ru" for Russian.
 #' @return corpus a volatile text corpus as a "tm" package object
-#' @author Michael David Gill
+#' @author Ajmal
 #' @details
 #' This function reads from a data file as an object of type "corpus" from the
 #' "tm" ppackage. It chooses the files corresponding to the language indicated
@@ -196,7 +196,7 @@ read_data <- function(language) {
 #'
 #' @param corpus a volatile text corpus as a "tm" package object
 #' @return a preprocessed volatile text corpus as a "tm" package object
-#' @author Michael David Gill
+#' @author Ajmal
 #' @details
 #' This function preprocesses a corpus by removing punctuation, numbers, and
 #' English stopwords, and stripping whitespace.
@@ -244,7 +244,7 @@ preprocess_corpus <- function(corpus) {
 #' @param corpus corpus to be tokenized
 #' @param n size of n-gram
 #' @return a n-gram-tokenized term-document matrix
-#' @author Michael David Gill
+#' @author Ajmal
 #' @details
 #' This function creates a n-gram-tokenized term-document matrix.
 #' @export
@@ -272,7 +272,7 @@ create_ngram <- function(corpus, n) {
 #'
 #' @param phrase a character-type input to the model
 #' @return a character-type word predicted by the model
-#' @author Michael David Gill
+#' @author Ajmal
 #' @details
 #' This function creates a simplified Katz's back-off model that backs off to
 #' smaller n-grams when the key is not found in the larger n-gram.  The maximum
