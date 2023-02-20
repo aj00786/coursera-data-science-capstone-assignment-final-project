@@ -1,15 +1,15 @@
 Word Prediction
 ========================================================
-author: Jonathan Tieh
-date: June 5, 2016
+author: Ajmal
+date: 2023
 autosize: true
 Submitted in partial fulfillment of the requirements of the Coursera course, "Data Science Capstone".
 
 Demonstration:
-[https://jontieh.shinyapps.io/word-prediction/](https://jontieh.shinyapps.io/word-prediction/)
+[https://ajmal007.shinyapps.io/word-prediction/](https://ajmal007.shinyapps.io/word-prediction/)
 
 Source Code:
-[https://github.com/jontieh/coursera-data-science-capstone-assignment-final-project-submission](https://github.com/jontieh/coursera-data-science-capstone-assignment-final-project-submission)
+[https://github.com/aj00786/coursera-data-science-capstone-assignment-final-project](https://github.com/aj00786/coursera-data-science-capstone-assignment-final-project)
 
 Description: Auto-Completion and Corpora
 ========================================================
