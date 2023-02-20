@@ -1,10 +1,10 @@
 # Wordprediction Package for R
-Jonathan Tieh  
-June 5, 2016  
+Ajmal
+2023
 
 ### Summary
 
-This package, submitted in partial fulfillment of the requirements of the Coursera course, "Data Science Capstone", contains functions for an auto-completion model that predicts the next word to be typed based on a word or phrase previously typed.  The presentation can be found at [http://rpubs.com/jontieh/wordprediction](http://rpubs.com/jontieh/wordprediction) and a demonstration at [https://jontieh.shinyapps.io/word-prediction/](https://jontieh.shinyapps.io/word-prediction/).
+This package, submitted in partial fulfillment of the requirements of the Coursera course, "Data Science Capstone", contains functions for an auto-completion model that predicts the next word to be typed based on a word or phrase previously typed.  The presentation can be found at [http://rpubs.com/ajmal007/wordprediction](http://rpubs.com/jontieh/wordprediction) and a demonstration at [https://ajmal007.shinyapps.io/word-prediction/](https://ajmal007.shinyapps.io/word-prediction/).
 
 Auto-completion is a common function on mobile devices. As a user types, an auto-completion function presents that user with possible completions to the current word being typed or probable words that could follow the current word or phrase after it is typed. The package "wordprediction" provides the latter function.
 
