@@ -23,6 +23,6 @@ largest n-gram where the key is found.  When the key is not found in the
 unigram, the word "will" is returned.
 }
 \author{
-Michael David Gill
+Ajmal
 }
 
